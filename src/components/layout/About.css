@@ -1,0 +1,16 @@
+.about {
+  background: #f4e9d8;
+  border-left: 5px solid #e8a87c;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about h2 {
+  margin: 0 0 0.5rem;
+  color: #1f3d40;
+}
+
+.about p {
+  margin: 0;
+}

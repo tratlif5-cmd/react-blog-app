@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; color: #222; }
+a { color: #1355aa; }
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+.main { flex: 1; width: 100%; max-width: 850px; margin: 24px auto; padding: 0 16px; }
+.post-preview { padding: 12px 16px; border: 1px solid #ccc; margin-bottom: 16px; background: white; }
+.post-preview h3 { margin-top: 4px; }
+.contact-form { display: flex; flex-direction: column; max-width: 400px; gap: 8px; }
+.contact-form input, .contact-form textarea { padding: 8px; font: inherit; }
+.contact-form button { width: 100px; padding: 8px; cursor: pointer; }
+[data-theme="dark"] body { background: #242424; color: #eee; }
+[data-theme="dark"] .post-preview, [data-theme="dark"] .blog-post { background: #333; color: #eee; border-color: #666; }
+[data-theme="dark"] a { color: #9bc5ff; }
+[data-theme="dark"] input, [data-theme="dark"] textarea { background: #444; color: white; border: 1px solid #888; }
+@media (max-width: 600px) { .main { margin: 12px auto; } }
+.simple-comment { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; background: white; }
+.simple-comment p { margin-bottom: 0; }
+.small-note { font-size: 13px; }
+[data-theme="dark"] .simple-comment { background: #333; color: #eee; border-color: #666; }

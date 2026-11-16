@@ -1,0 +1,42 @@
+.blog-post {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px rgba(31, 61, 64, 0.08);
+}
+
+.blog-post__title {
+  margin: 0 0 0.25rem;
+  color: #1f3d40;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+}
+
+.blog-post__meta p {
+  margin: 0.15rem 0;
+}
+
+.blog-post__meta {
+  margin: 0 0 1rem;
+  color: #7a6a58;
+  font-size: 0.9rem;
+}
+
+.blog-post__content {
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+
+.blog-post__actions {
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .blog-post {
+    padding: 1.25rem;
+  }
+  .blog-post__title {
+    font-size: 1.3rem;
+  }
+}

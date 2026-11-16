@@ -1,0 +1,16 @@
+.footer {
+  background: #1f3d40;
+  color: #f4e9d8;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+}
+
+.footer p {
+  margin: 0.25rem 0;
+}
+
+.footer__contact {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
